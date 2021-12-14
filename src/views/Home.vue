@@ -1,14 +1,18 @@
 <template>
   <hello-world/>
+  <hr/>
+  <counter/>
 </template>
 
 <script>
+import HelloWorld from "@/components/First_HelloWorld"
+import Counter from "@/components/Second_SimpleCounter"
 
-import HelloWorld from "@/components/FirstHelloWorld"
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
+    Counter,
   }
 }
 </script>
